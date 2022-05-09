@@ -16,7 +16,7 @@ async function loginUser(credentials) {
         .then(data => data.json())
 }
 
-// Function accepts setToken prop from the Login component in the App.js file
+// Function accepts setToken prop from the Login component in the App.js file, which needs to be deconstructed using PropTypes at the bottom of the file
 export default function Login({ setToken }) {
     // Declaring constants for username and setUserName calling useState to set their return values (imported from the react module at the top of the page)
     const [username, setUserName] = useState();
@@ -70,7 +70,7 @@ export default function Login({ setToken }) {
     )
 }
 
-// Destructure the props object to pull out the setToken prop
+// The setToken property is being passed to the Login component from the App componenet so we need to destructure the props object to pull out the setToken prop
 Login.propTypes = {
     setToken: PropTypes.func.isRequired
 }
