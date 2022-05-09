@@ -12,7 +12,7 @@ Run node server.js in the terminal to start a server to return an authentication
 
 Other things that could be added to the application include using local storage or session storage to ensure the user stays logged in when you navigate to another page.
 
-Could also try moving the loginUser function from the App.js file to a file in a separate directory for shared code e.g. a Services directory, adding an import statement for this to the App.js file and calling the method from there.
+Could also try moving the loginUser function from the Login.js file to a file in a separate directory for shared code e.g. a Services directory, adding an import statement for this to the App.js file and calling the method from there.
 
 ## Run the following in the terminal before starting program
 
