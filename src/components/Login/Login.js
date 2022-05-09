@@ -73,4 +73,4 @@ export default function Login({ setToken }) {
 // The setToken property is being passed to the Login component from the App componenet so we need to destructure the props object to pull out the setToken prop
 Login.propTypes = {
     setToken: PropTypes.func.isRequired
-}
+};
