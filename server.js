@@ -13,9 +13,9 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
-// Listen to a specific route with app.use. The first argumnet is the path the application listens to.
+// Listen to a specific route with app.use. The first argument is the path the application listens to.
 // The second argument is a callback function that runs when the application serves the path. The callback
-// takes the req argument whihc contains the request data and a res argument that handles the result
+// takes the req argument which contains the request data and a res argument that handles the result
 app.use('/login', (req, res) => {
     res.send({
         token: 'authenticated'

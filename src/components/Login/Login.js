@@ -63,9 +63,9 @@ export default function Login({ setToken }) {
                 <div>
                     <button type="submit">Submit</button>
                 </div>
-                { /* If validation fails display a message */}
-                <div className="validation-message">{validationMessage}</div>
             </form>
+            { /* If validation fails display a message */}
+            <div className="validation-message">{validationMessage}</div>
         </div>
     )
 }
